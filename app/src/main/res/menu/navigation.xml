@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_status"
+        android:checked="true"
+        android:icon="@mipmap/ic_launcher"
+        android:orderInCategory="0"
+        android:title="@string/title_status" />
+    <!--
+    android:checked="true" 表示默认选中
+    android:orderInCategory 用于标记item的位置
+    -->
+
+    <item
+        android:id="@+id/navigation_rank"
+        android:icon="@mipmap/ic_launcher"
+        android:orderInCategory="1"
+        android:title="@string/title_rank" />
+
+    <item
+        android:id="@+id/navigation_me"
+        android:icon="@mipmap/ic_launcher"
+        android:orderInCategory="2"
+        android:title="@string/title_me" />
+
+</menu>
